@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_display_details"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="4dp"
+    android:orientation="vertical"
+    tools:context="com.example.cmss.recyclerview.DisplayDetails">
+
+    <ImageView
+        android:layout_height="70dp"
+        android:layout_width="70dp"
+        android:id="@+id/setImage"/>
+
+    <!--android:layout_gravity="center"-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="4dp"
+        android:weightSum="2">
+    <TextView
+        android:layout_weight="0.7"
+        android:text="Name:"
+        android:textSize="18dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/setName" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_weight="1.3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/setname" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="4dp"
+        android:weightSum="3">
+        <TextView
+            android:layout_weight="1"
+            android:text="Designation:"
+            android:textSize="18dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/setDesignation" />
+
+        <TextView
+            android:text="TextView"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/setdesignation" />
+        <TextView
+            android:text=","
+            android:layout_weight="0.2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="TextView"
+            android:layout_weight="0.8"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/CompanyId" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="4dp"
+        android:weightSum="2">
+        <TextView
+            android:layout_weight="0.7"
+            android:text="Company:"
+            android:textSize="18dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/setCompany" />
+
+        <TextView
+            android:text="TextView"
+            android:layout_weight="1.3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/setcompany" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="4dp"
+        android:weightSum="2">
+        <TextView
+            android:layout_weight="0.7"
+            android:text="Contact:"
+            android:textSize="18dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/setContact" />
+
+        <TextView
+            android:text="TextView"
+            android:layout_weight="1.3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/setcontact" />
+
+    </LinearLayout>
+
+</LinearLayout>
